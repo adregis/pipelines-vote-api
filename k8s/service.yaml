@@ -4,6 +4,7 @@ metadata:
   labels:
     app: pipelines-vote-api
   name: pipelines-vote-api
+  namespace: app-vote
 spec:
   type: ClusterIP
   ports:
